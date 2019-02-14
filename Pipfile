@@ -4,8 +4,15 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+pylint = "*"
 
 [packages]
+scipy = "*"
+h5py = "*"
+numpy = "*"
+matplotlib = "*"
+pyqt5 = "*"
+python-dotenv = "*"
 
 [requires]
 python_version = "3.6"
